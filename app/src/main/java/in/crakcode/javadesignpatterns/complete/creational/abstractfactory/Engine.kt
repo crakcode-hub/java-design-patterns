@@ -1,4 +1,4 @@
-package `in`.crakcode.javadesignpatterns.factory.complete.abstractfactory
+package `in`.crakcode.javadesignpatterns.complete.creational.abstractfactory
 
 // Abstract Product: Engine
 interface Engine {
@@ -76,6 +76,52 @@ class Car(private val factory: CarFactory) {
         tire.createTire()
     }
 }
+
+
+
+interface Sugar {
+
+}
+
+class Jaggery : Sugar
+class WhiteSugar : Sugar
+
+class Custom : Sugar
+
+interface Coffee
+class FlavouredCoffee : Coffee
+class Normal : Coffee
+
+interface Milk
+
+class CowMilk : Milk
+class BuffalowMilk: Milk
+
+
+
+interface CoffeeFactory {
+    fun getSugar() : Sugar
+    fun milk() : Milk
+    fun coffee(): Coffee
+
+}
+
+
+class Nescafe : CoffeeFactory {
+    override fun getSugar(): Sugar {
+       return Custom()
+    }
+
+    override fun milk(): Milk {
+        return CowMilk()
+    }
+
+    override fun coffee(): Coffee {
+      return Normal()
+    }
+
+}
+
 
 // Usage
 fun main() {

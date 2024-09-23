@@ -1,4 +1,4 @@
-package `in`.crakcode.javadesignpatterns.factory.complete.abstractfactory
+package `in`.crakcode.javadesignpatterns.complete.creational.abstractfactory
 
 // Abstract Product: Button
 interface Button {

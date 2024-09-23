@@ -1,4 +1,4 @@
-package `in`.crakcode.javadesignpatterns.factory.complete.singleton
+package `in`.crakcode.javadesignpatterns.complete.creational.singleton
 
 // Singleton class that manages a database connection
 class DatabaseConnection private constructor() {

@@ -1,4 +1,4 @@
-package `in`.crakcode.javadesignpatterns.factory.complete.builder
+package `in`.crakcode.javadesignpatterns.complete.creational.builder
 
 // The Product Class
 class Pizza private constructor(
@@ -35,9 +35,6 @@ fun main() {
     // Using the Builder to create a Pizza object
     val pizza = Pizza.Builder()
         .size("Large")
-        .cheese(true)
-        .pepperoni(true)
-        .mushrooms(false)
         .build()
 
     println(pizza)

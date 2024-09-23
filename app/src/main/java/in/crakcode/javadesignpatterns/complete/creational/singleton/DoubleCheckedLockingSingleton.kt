@@ -1,4 +1,4 @@
-package `in`.crakcode.javadesignpatterns.factory.complete.singleton
+package `in`.crakcode.javadesignpatterns.complete.creational.singleton
 
 // Singleton with Double-Checked Locking
 class DoubleCheckedLockingSingleton private constructor() {

@@ -1,4 +1,4 @@
-package `in`.crakcode.javadesignpatterns.factory.complete.builder
+package `in`.crakcode.javadesignpatterns.complete.creational.builder
 
 // The Product Class
 class Car private constructor(

@@ -1,4 +1,4 @@
-package `in`.crakcode.javadesignpatterns.factory.complete.factory
+package `in`.crakcode.javadesignpatterns.complete.creational.factory
 
 // Logger interface
 internal interface Logger {
