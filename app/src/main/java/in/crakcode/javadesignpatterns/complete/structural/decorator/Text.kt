@@ -36,6 +36,12 @@ class UnderlineTextDecorator(text: Text) : TextDecorator(text) {
     }
 }
 
+class StrikeTextDecorator(text: Text) : TextDecorator(text) {
+    override fun render(): String {
+        return "<s>${super.render()}</s>"  // Simulate underline HTML tag
+    }
+}
+
 
 fun main() {
     var text: Text = PlainText("Hello, World!")
@@ -51,6 +57,9 @@ fun main() {
 
     // Add underline formatting
     text = UnderlineTextDecorator(text)
+    println(text.render())
+
+    text = StrikeTextDecorator(text)
     println(text.render())
 
 }

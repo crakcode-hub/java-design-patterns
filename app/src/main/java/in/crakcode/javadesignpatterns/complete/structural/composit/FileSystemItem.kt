@@ -34,7 +34,6 @@ class Folder(private val name: String) : FileSystemItem {
 
 fun main() {
 
-    fun main() {
         // Create individual files
         val file1 = File("file1.txt", 500)
         val file2 = File("file2.txt", 300)
@@ -54,6 +53,5 @@ fun main() {
         // Print total size of the main folder
         println("${folder.getName()} folder size: ${folder.getSize()} KB")
         // Output: Documents folder size: 1000 KB
-    }
 
 }

@@ -32,7 +32,6 @@ class ViewGroup(private val name: String) : UIElement {
 
 
 fun main() {
-    fun main() {
         // Create individual views
         val button = Button("Submit")
         val textView = TextView("Welcome to the app")
@@ -60,6 +59,5 @@ fun main() {
         // Rendering ViewGroup: Sub Layout
         // Rendering Button: Cancel
         // Rendering TextView: Enter your details
-    }
 
 }
