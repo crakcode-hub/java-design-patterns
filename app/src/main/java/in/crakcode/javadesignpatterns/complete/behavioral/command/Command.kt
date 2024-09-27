@@ -1,4 +1,4 @@
-package `in`.crakcode.javadesignpatterns.complete.behavioural.command
+package `in`.crakcode.javadesignpatterns.complete.behavioral.command
 
 interface Command {
     fun execute()

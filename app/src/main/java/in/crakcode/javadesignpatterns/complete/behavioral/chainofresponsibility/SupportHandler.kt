@@ -1,4 +1,4 @@
-package `in`.crakcode.javadesignpatterns.complete.behavioural.chainofresponsibility
+package `in`.crakcode.javadesignpatterns.complete.behavioral.chainofresponsibility
 
 // The base interface for all handlers
 interface SupportHandler {
